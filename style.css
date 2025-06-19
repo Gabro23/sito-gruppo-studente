@@ -75,6 +75,13 @@ body {
 	color: var(--primary-color);
 }
 
+.nav-logo img {
+	width: 35px;
+	height: 35px;
+	margin-right: 10px;
+	border-radius: 50%;
+}
+
 .nav-logo i {
 	margin-right: 10px;
 	font-size: 1.8rem;
