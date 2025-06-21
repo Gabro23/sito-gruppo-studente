@@ -758,6 +758,33 @@ footer {
 	box-shadow: 0 8px 25px rgba(225, 48, 108, 0.3);
 }
 
+/* GitHub link styles */
+.github-link {
+	color: #333;
+	text-decoration: none;
+	display: inline-flex;
+	align-items: center;
+	gap: 4px;
+	transition: color 0.3s ease;
+}
+
+.github-link:hover {
+	color: #0366d6;
+}
+
+.github-link i {
+	font-size: 16px;
+}
+
+/* Supporto per tema scuro del GitHub link */
+[data-theme="dark"] .github-link {
+	color: var(--text-color);
+}
+
+[data-theme="dark"] .github-link:hover {
+	color: #58a6ff;
+}
+
 .social-link i {
 	font-size: 1.2rem;
 }
@@ -1092,4 +1119,3 @@ footer {
 		align-items: center;
 		justify-content: center;
 	}
-}
