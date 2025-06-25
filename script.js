@@ -142,8 +142,8 @@ const corsiDiStudio = [
 ];
 
 // Link di fallback per corsi senza link specifici
-const DEFAULT_WHATSAPP = 'https://chat.whatsapp.com/INSERISCI-LINK-GRUPPO-PRINCIPALE';
-const DEFAULT_DRIVE = 'https://drive.google.com/drive/folders/INSERISCI-CARTELLA-GENERALE';
+const DEFAULT_WHATSAPP = 'https://chat.whatsapp.com/DTivAJfcf9Y4CPftuM4rK0';
+const DEFAULT_DRIVE = 'https://drive.google.com/drive/folders/1HY05IoQMWcZ71TzbuwMWirtyhQO5IEI_?usp=drive_link';
 
 // Gestione del tema scuro/chiaro
 class ThemeManager {
